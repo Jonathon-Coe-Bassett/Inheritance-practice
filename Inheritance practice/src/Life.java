@@ -22,7 +22,6 @@ public class Life extends Matter
 
 		protected static String isAlive()
 		{
-			alive=true;
 			return "The " + name + " is alive!";
 		}
 

@@ -21,7 +21,7 @@ public abstract class Reality
 			{
 				Reality.size = size;
 			}
-		protected static String exist()
+		protected static String exist(String name)
 		{
 			return name + " exists.";
 		}

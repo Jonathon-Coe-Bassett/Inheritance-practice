@@ -24,7 +24,7 @@ public class ThermalEnergy extends Energy
 			}
 
 
-		protected static String isHeat()
+		protected static String isTemp(String name, int tempKelvin)
 		{
 			return "The " + name + " is " + tempKelvin + " Kelvin";
 		}

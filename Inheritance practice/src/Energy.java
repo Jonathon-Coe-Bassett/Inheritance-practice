@@ -15,10 +15,10 @@ public abstract class Energy extends Reality
 			}
 
 
-		protected String toggleForm()
+		protected static String toggleForm(String name)
 		{
 			form=!form;
-			return "The " + name + " Changed form.";
+			return "The " + name + " changed form.";
 			
 		}
 
